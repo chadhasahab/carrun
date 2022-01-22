@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#back {
+  background: url("images/side.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: auto;
+  height: 500px;
+}
+
+#road {
+  background: url("images/road.jpg");
+}
+
+#img {
+  width: 150px;
+}
+
+#btn {
+  background-color: aqua;
+  color: #fff;
+  width: 100px;
+  outline: 1px solid aqua;
+  font-size: 25px;
+  border: 1px solid aqua;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+#playstopbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

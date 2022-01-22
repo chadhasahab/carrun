@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Run Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="back">
+      <div id="playstopbtn">
+        <select id="imgr" onchange="imgchnge()">
+          <option value="0">Image 1(default)</option>
+          <option value="1">Image 2</option>
+          <option value="2">Image 3</option>
+        </select>
+        <button type="button" id="btn" onclick="start()">Start</button>
+        <button type="button" id="btn" onclick="stop()">Stop</button>
+      </div>
+    </div>
+    <div id="road">
+      <img src="images/car.png" id="img" alt="" />
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
